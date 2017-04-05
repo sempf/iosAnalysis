@@ -30,7 +30,8 @@ if [ -f $ipafile ]
 		otool -l $apppath > "dynamicdependancies.txt"
 
 		# Runtime info with class-dump-z <appname>
-		class-dump-z $apppath > "runtime.txt"
+		# Ok, this is dumb because it is supposed to be done on the device
+		# class-dump-z $apppath > "runtime.txt"
 
 		# Dump the keychain with dump_keychain
 		dump_keychain $apppath > "keychain.txt"

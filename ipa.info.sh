@@ -34,7 +34,8 @@ if [ -f $ipafile ]
 		# class-dump-z $apppath > "runtime.txt"
 
 		# Dump the keychain with dump_keychain
-		dump_keychain $apppath > "keychain.txt"
+		# This also needs to be done on the device.  Ya think I can SSH in on the script?
+		# dump_keychain $apppath > "keychain.txt"
 
 		# Locate the PIE with otool -hv <appname>
 		otool -hv $apppath > "pie.txt"

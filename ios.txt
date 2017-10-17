@@ -1,0 +1,14 @@
+allowsAnyHTTPSCertificateForHost
+setAllowsAnyHTTPSCertificate
+continueWithoutCredentialForAuthenticationChallenge
+UIWebView
+UDID
+IMEI
+ICCID
+PII
+OSN-ID
+LID
+UUID
+NSXMLParser
+NSFileManager
+NSFileProtectionKey
